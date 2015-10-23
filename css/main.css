@@ -22,10 +22,6 @@ body {
   margin: 0;
 }
 
-h1 {
-  text-align: center;
-}
-
 @-moz-viewport { width: device-width; scale: 1; }
 @-ms-viewport { width: device-width; scale: 1; }
 @-o-viewport { width: device-width; scale: 1; }
@@ -54,10 +50,6 @@ header {
   background-color: lightgrey;
 }
 
-h1 {
-  text-align: center;
-}
-
 .img-flex {
   width: 100%;
   display: block;
@@ -81,6 +73,10 @@ nav {
   display: inline-block;
 }
 
+.venus {
+  text-align: center;
+}
+
 @media only screen and (min-width: 25em) {
 
   nav li {
@@ -94,5 +90,17 @@ nav {
   a {
     display: inline-block;
   }
-  
+
+}
+
+@media only screen and (min-width: 38em) {
+
+ .venus {
+   text-align: left;
+ }
+
+ nav {
+   text-align: left;
+ }
+
 }
