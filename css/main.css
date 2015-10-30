@@ -71,10 +71,24 @@ text-decoration: none;
 
 nav {
   display: inline-block;
+  background-color:
 }
 
 .venus {
   text-align: center;
+}
+
+.nav a {
+  display: block;
+}
+
+.nav a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+.exploration {
+  background-color: #e2e2e2;
 }
 
 @media only screen and (min-width: 25em) {
