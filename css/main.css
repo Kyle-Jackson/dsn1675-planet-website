@@ -112,11 +112,11 @@ nav {
 
 @media only screen and (min-width: 25em) {
 
-  nav li {
+  .nav li {
     display: inline-block;
   }
 
-  nav {
+  .nav {
     text-align: center;
   }
 
@@ -132,7 +132,7 @@ nav {
    text-align: left;
  }
 
- nav {
+ .nav {
    text-align: left;
  }
 
