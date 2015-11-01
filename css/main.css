@@ -42,22 +42,13 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 0;
-}
-
 header {
-  background-color: lightgrey;
+  background-color: #cccccc;
 }
 
 .img-flex {
   width: 100%;
   display: block;
-}
-
-ul {
-  list-style-type: none;
-  padding: 0;
 }
 
 .img-flex {
@@ -72,17 +63,10 @@ color:#0074d9;
 
 .float {
   float: left;
-  }
 }
 
 nav {
   display: inline-block;
-  background-color:
-}
-
-.venus {
-  text-align: center;
-  margin: 0;
 }
 
 .nav a {
@@ -94,19 +78,11 @@ nav {
   color: #fff;
 }
 
-.exploration {
-  background-color: #e2e2e2;
-}
-
-.discovery {
-  background-color: #e2e2e2;
-}
-
-.venus-copy {
+.light-grey {
   background-color: #efefef;
 }
 
-.char {
+.grey {
   background-color: #e2e2e2;
 }
 
