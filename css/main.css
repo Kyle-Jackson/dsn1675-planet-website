@@ -86,6 +86,10 @@ nav {
   background-color: #e2e2e2;
 }
 
+.dark-grey {
+  background-color: #cccccc;
+}
+
 @media only screen and (min-width: 25em) {
 
   .nav li {
@@ -104,15 +108,7 @@ nav {
 
 @media only screen and (min-width: 38em) {
 
- .venus {
-   text-align: left;
- }
-
  .nav {
-   text-align: left;
- }
-
- dl {
    text-align: left;
  }
 
